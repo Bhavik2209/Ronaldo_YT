@@ -113,7 +113,7 @@ def load_lottieurl(url: str):
     return r.json()
 
 def main():
-    st.set_page_config(page_title="YouTube Channel Analysis", page_icon="📊", layout="centered")
+    st.set_page_config(page_title="YouTube Channel Analysis", page_icon="📊", layout="wide")
     st.title("Cristiano Ronaldo's YouTube Analysis ⚽⚽")
     # Custom CSS
     st.markdown("""
