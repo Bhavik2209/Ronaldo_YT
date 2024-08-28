@@ -102,10 +102,7 @@ def get_video_data(channel_id):
         st.error(f"An error occurred: {e}")
         return None
 
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 from streamlit_lottie import st_lottie
 import requests
 
@@ -121,9 +118,7 @@ def main():
     # Custom CSS
     st.markdown("""
     <style>
-    .main{
-        background-color: #0c1320       
-                }
+   
     .stButton>button {
         color: #ffffff;
         background-color: #ff0000;
@@ -165,14 +160,7 @@ def main():
         st.error("Unable to find the channel ID.")
 
 
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from streamlit_lottie import st_lottie
-import requests
-from googleapiclient.discovery import build
-from googleapiclient.errors import HttpError
+
 
 
 
